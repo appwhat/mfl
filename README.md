@@ -1,2 +1,1 @@
 # mfl
-LocalStorage With object
