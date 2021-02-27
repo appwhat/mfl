@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historico URL com localStorage</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/69d4cc193b.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body onload="existeHistorico()">
+
+    <header>
+        <div>
+            <a href="#">
+                <span class="logo">My Favorite Links</span>
+            </a>
+        </div>
+
+    </header>
+
+
+    <div id="header">
+        </section>
+        <input id="campoText" type="text" value="https://www.google.com">
+        <button class="btn" onclick="salvar()" type="button">
+            <i class="fas fa-save"></i> save</button>
+    </div>
+    <div id="bodyd">
+        <br>
+        <div id="receber">
+            <h1>History</h1>
+            <ul id="lista">
+                <!-- gET List -->
+            </ul>
+            <label id="fecharHistorico">
+                <i class="fas fa-times-circle fa-2x"></i>
+            </label>
+        </div>
+        <br>
+    </div>
+    <div id="footer">
+        <br>
+        <button class="btn btn-history" id="btnHistorico"> <i class="fas fa-history"></i> History</button>
+        <button class="btn btn-clear" id="btnLimparHistorico"> <i class="fas fa-trash-alt"></i> Clear</button>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
